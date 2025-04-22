@@ -3,9 +3,9 @@ export PATH=$PATH:/home/ubuntu/bin   #optional
 
 
 # Configuration
-OCI_NAMESPACE="axbel9f2loln"
-OCI_BUCKET="oci-unity-uat-bucket"
-AWS_S3_BUCKET="s3://ff-usfb-reconciliation"  # <-- Replace with your actual S3 bucket
+OCI_NAMESPACE="namespace"
+OCI_BUCKET="oci_bucket"
+AWS_S3_BUCKET="s3://aws_s3_bucket"  # <-- Replace with your actual S3 bucket
 TMP_DIR="/tmp/oci_files"
 mkdir -p "$TMP_DIR"
 
